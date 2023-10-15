@@ -1,0 +1,23 @@
+.background{
+    background-position: -40lvw;
+}
+.grad{
+    background: linear-gradient(#f5f8fe, transparent, transparent,transparent,#f5f8fe);
+}
+.movecompany{
+    animation-name: movecom;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes movecom {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-800px);
+    }
+
+}
